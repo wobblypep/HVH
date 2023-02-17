@@ -7,6 +7,9 @@ echo ------------------------------------------
 echo.
 echo Please note that all of these harmless viruses will only need a restart to disappear!
 echo This is my first coding experience where I used bassicly no help, I hope you like it!
+echo The file starter is the most harmful even though it's a harmless virus.
+echo If anything happens to your PC it is not my fault.
+
 
 :hub
 echo  1. Rick roll
