@@ -17,6 +17,7 @@ echo  2. Ram destroyer
 echo  3. Harmless matrix
 echo  4. You are under attack
 echo  5. FILE STARTER
+echo  6. MY VIDEO!
 
 set /p hubchoice=
 if %hubchoice% == 1 goto rickroll
@@ -24,6 +25,15 @@ if %hubchoice% == 2 goto ramdestroyer
 if %hubchoice% == 3 goto harmlessmatrix
 if %hubchoice% == 4 goto attack
 if %hubchoice% == 5 goto attack
+if %hubchoice% == 6 goto video
+
+:video
+
+@echo off
+:x
+start https://www.youtube.com/watch?v=HO0lwRg26n8
+goto x
+
 goto hub
 
 :attack
